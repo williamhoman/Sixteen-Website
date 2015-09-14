@@ -1,0 +1,53 @@
+body{
+    width: 360px;
+}
+
+nav{
+    height: 40px;
+    width: 360px;
+    background: #acd373;
+}
+
+.greeting {
+    background:#9abd67;
+    background-image: url(images/bkg-header-silhouette.png);
+    background-repeat: no-repeat;
+    background-position: bottom;
+    height: 350px;
+}
+
+.sixteen { 
+    padding-left: 30px;
+    padding-top: 10px;
+}
+
+.hamburger {
+    padding-right: 16px;
+    height: 40px;
+    width: 40px;
+    background-color: 89a85c
+}
+
+.weare {
+    padding-top: 125px;
+    text-align: center;
+    color: white;
+}
+
+.jakarta {
+    text-align: center;
+    color: white;
+    
+}
+
+.phone-back {
+    height: 500px;
+    width: 360px;
+    background: white;
+    padding-top: 40px;
+    
+}
+
+.who-we-are {
+    padding-right: 50px;
+}
