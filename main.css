@@ -1,125 +1,101 @@
+/*normalize css*/
+
+
+/*base styling*/
 body{
-    width: 360px;
+  width: 360px;
+  margin: 0;
 }
 
-p {
-    font-family: 'Source Sans Pro';
-    font-size:13px;
-    padding-left: 30px;
-    padding-right: 30px;
+h1, h2, h3{
 }
 
-.nav{
-    position: relative;
-    float: left;
-    height: 40px;
-    width: 360px;
-    background: #acd373;
+section{
+  padding: 30px;
 }
 
-.sixteen {
-    float: left;
-    padding-left: 30px;
-    padding-top: 10px;
+/*specific page / section*/
+
+
+/*//////////////////
+
+header section
+
+////////////////// */
+header{
+  background-color: #acd373;
+  height: 40px;
+  position: relative;
+
 }
 
-.right-corner{
-    position: relative;
-    float: left;
-    margin-left: 218px;
-    height: 40px;
-    width:40px;
-    background-color: #89a85c;
+.logo{
+  display: inline-block;
+  margin: 8px 0 0 30px;
 }
 
-.hamburger {
-    margin-top: 15px;
-    padding-left: 15px;
-    background-color: #89a85c;
+nav{
+  width: 40px;
+  height: 40px;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  background-color: #89a85c;
+  background-image: url(images/btn-tg-nav.png);
+  background-repeat: no-repeat;
+  background-position: center;
 }
+
+/*greeting section*/
 
 .greeting {
-    padding-top: 125px;
-    background:#9abd67;
-    background-image: url(images/bkg-header-silhouette.png);
-    background-repeat: no-repeat;
-    background-position: bottom;
+    background:#9abd67 url(images/bkg-header-silhouette.png) no-repeat bottom;
     height: 350px;
+  position: relative;
+  color: #fff;
+  text-align: center;
+    padding: 0;
 }
 
-h1 {
-    font-size: 24px;
-    font-family: 'Source Sans Pro';
-    font-weight: 400;
+.greeting > div {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  left: 0;
+  right: 0;
 }
 
-.weare {
-    text-align: center;
-    text-transform: uppercase;
-    color: white;
+.greeting h1{
+  margin-top: 0;
 }
 
-.jakarta {
-    text-align: center;
-    color: white;
+/*   who we are section   */
+
+.who-we-are .iphone {
+  display: block;
+  margin: 0 auto;
+}
+
+.who-we-are h2{
     
+  background: url(images/icon-man.png) no-repeat;
+  height: 30px;
+  padding-left: 38px;
+  font-size: 20px;
+  line-height: 30px;
+  text-transform: uppercase;
+}
+ 
+.who-we-are a{
+  color: #acd473;
+  text-decoration: none;
+  border: #acd473 1px solid;
+  padding: 11px 15px;
+  font-style: italic;
+  margin: 17px 0;
+  display: inline-block
 }
 
-.down-arrow {
-    padding-top: 60px;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-.whoweare{
-    height: 500px;
-    width: 360px;
-    background: white;
-    
-}
-
-.iphone {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    padding-top: 42px;
-}
-
-.man-icon {
-    padding-right: 10px;
-    float: left;
-}
-
-.who-we-are {
-    padding-top: 30px;
-    padding-left: 30px;
-    text-transform: uppercase;
-    text-align: left;
-}
-
-.learn {
-    position:relative;
-    left: 30px;
-    padding: 10px;
-    border-style: solid;
-    text-align: center;
-    width:140px;
-    border-width: 1px;
-    border-color:#acd373;
-}
-
-.play-back {
-        margin-top: 50px;
-        padding-top: 80px;
-        padding-bottom: 80px;
-        background-image: url(images/back-group.jpg);
-        width: 360px;
-        
-}
-
-.play {
-     display: block;
-    margin-left: auto;
-    margin-right: auto;
+.video-learnmore {
+  padding: 0
 }

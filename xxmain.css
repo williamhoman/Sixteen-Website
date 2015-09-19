@@ -1,0 +1,125 @@
+body{
+    width: 360px;
+}
+
+p {
+    font-family: 'Source Sans Pro';
+    font-size:13px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.nav{
+    position: relative;
+    float: left;
+    height: 40px;
+    width: 360px;
+    background: #acd373;
+}
+
+.sixteen {
+    float: left;
+    padding-left: 30px;
+    padding-top: 10px;
+}
+
+.right-corner{
+    position: relative;
+    float: left;
+    margin-left: 218px;
+    height: 40px;
+    width:40px;
+    background-color: #89a85c;
+}
+
+.hamburger {
+    margin-top: 15px;
+    padding-left: 15px;
+    background-color: #89a85c;
+}
+
+.greeting {
+    padding-top: 125px;
+    background:#9abd67;
+    background-image: url(images/bkg-header-silhouette.png);
+    background-repeat: no-repeat;
+    background-position: bottom;
+    height: 350px;
+}
+
+h1 {
+    font-size: 24px;
+    font-family: 'Source Sans Pro';
+    font-weight: 400;
+}
+
+.weare {
+    text-align: center;
+    text-transform: uppercase;
+    color: white;
+}
+
+.jakarta {
+    text-align: center;
+    color: white;
+    
+}
+
+.down-arrow {
+    padding-top: 60px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.whoweare{
+    height: 500px;
+    width: 360px;
+    background: white;
+    
+}
+
+.iphone {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 42px;
+}
+
+.man-icon {
+    padding-right: 10px;
+    float: left;
+}
+
+.who-we-are {
+    padding-top: 30px;
+    padding-left: 30px;
+    text-transform: uppercase;
+    text-align: left;
+}
+
+.learn {
+    position:relative;
+    left: 30px;
+    padding: 10px;
+    border-style: solid;
+    text-align: center;
+    width:140px;
+    border-width: 1px;
+    border-color:#acd373;
+}
+
+.play-back {
+        margin-top: 50px;
+        padding-top: 80px;
+        padding-bottom: 80px;
+        background-image: url(images/back-group.jpg);
+        width: 360px;
+        
+}
+
+.play {
+     display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
