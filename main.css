@@ -1,5 +1,12 @@
 /*normalize css*/
 
+/*box styling*/
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
 
 /*base styling*/
 body{
@@ -8,10 +15,30 @@ body{
 }
 
 h1, h2, h3{
+     font-family: 'Source Sans Pro';
+     font-style: normal;
+     text-transform: uppercase;
+     font-weight: 600;
 }
 
+h3 {
+    font-size: 14px;
+    line-height: 14px;
+    margin: 0 0 10px 0;
+    color: #acd373;
+}
+
+p {
+     font-family: 'Source Sans Pro';
+     font-size: 13px;
+
+}
 section{
   padding: 30px;
+}
+
+ul {
+    list-style-type: none;
 }
 
 /*specific page / section*/
@@ -55,6 +82,7 @@ nav{
   color: #fff;
   text-align: center;
     padding: 0;
+     font-size: 14px;
 }
 
 .greeting > div {
@@ -71,6 +99,10 @@ nav{
 
 /*   who we are section   */
 
+.who-we-are {
+     margin-top: 13px;
+}
+
 .who-we-are .iphone {
   display: block;
   margin: 0 auto;
@@ -84,18 +116,133 @@ nav{
   font-size: 20px;
   line-height: 30px;
   text-transform: uppercase;
+  margin-top: 36px;
+  margin-bottom: 23px;
 }
  
 .who-we-are a{
+     
   color: #acd473;
   text-decoration: none;
   border: #acd473 1px solid;
   padding: 11px 15px;
   font-style: italic;
   margin: 17px 0;
-  display: inline-block
+  display: inline-block;
 }
 
 .video-learnmore {
   padding: 0
+}
+
+/*     our services section     */
+
+.our-services {
+     text-align: center;
+     margin-bottom: auto;
+}
+
+em {
+     color: #9abd67;
+     font-style: normal;
+}
+
+.quote {
+     display: block;
+     text-align: center;
+     font-family: 'Droid Serif Regular';
+     font-size: 14px;
+}
+
+.divider {
+     text-align: center;
+}
+
+.service-item{
+    position: relative;
+    display: block;
+    margin-bottom: 15px;
+  
+}
+.service-item p{
+    margin: 0;
+    font-size: 12px;
+}
+
+.service-item img {
+    float: left;
+    margin-right: 20px;
+}
+.service-text {
+
+    height: 80px;
+}
+
+.learn-more {
+  color: #acd473;
+  text-decoration: none;
+  border: #acd473 1px solid;
+  padding: 11px 15px;
+  font-style: italic;
+  margin: 17px 0;
+  display: inline-block;
+
+}
+
+.learn-button {
+    text-align: center;
+}
+
+.amazing-team {
+    background-color: #acd473;
+}
+
+.amazing-team h2 {
+    color: #f7f7f7;
+    font-size: 20px;
+    text-align: center;
+}
+
+.amazing-team span {
+    color: #f7f7f7;
+}
+
+/*need to make separator white*/
+.amazing-team .divider{
+   filter: invert(20%);
+   margin-bottom: 77px;
+}
+
+.founder-box {
+    display: block;
+    border: 3px solid white:#f7f7f7; 
+    background-color: #f7f7f7;
+    height: 182px;
+    width: 200px;
+    border-top-radius: 5px;
+    margin: 0 auto;
+    margin-top: 48px;
+    text-align: center;
+}
+
+.founder-box-gray {
+    positon: absolute;
+    height: 52px;
+    background-color: #ebebeb;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    display: block;
+}
+
+.founder {
+    margin-top: -27px;
+}
+
+.founder-box h2 {
+    color: #acd473;
+    font-size: 14px;
+}
+
+.founder-box h3 {
+    color: black;
 }
