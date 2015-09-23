@@ -195,54 +195,224 @@ em {
 
 .amazing-team {
     background-color: #acd473;
+
 }
+
 
 .amazing-team h2 {
     color: #f7f7f7;
     font-size: 20px;
     text-align: center;
+    line-height: 20px;
+    margin-bottom: 5px;
 }
 
 .amazing-team span {
     color: #f7f7f7;
 }
 
-/*need to make separator white*/
+
 .amazing-team .divider{
-   filter: invert(20%);
    margin-bottom: 77px;
 }
 
 .founder-box {
+    position: relative;
     display: block;
     border: 3px solid white:#f7f7f7; 
     background-color: #f7f7f7;
-    height: 182px;
     width: 200px;
-    border-top-radius: 5px;
+    height: 182px;
+    border-radius: 5px;
     margin: 0 auto;
-    margin-top: 48px;
     text-align: center;
+    margin-bottom: 60px;
 }
 
 .founder-box-gray {
-    positon: absolute;
-    height: 52px;
+    position: absolute;
+    height: 40px;
+    width: 200px;
+    bottom: 0;
     background-color: #ebebeb;
     border-bottom-left-radius: 5px;
     border-bottom-right-radius: 5px;
-    display: block;
+
 }
 
 .founder {
     margin-top: -27px;
 }
 
-.founder-box h2 {
+.founder-box h3 {
+    margin-top: 12px;
     color: #acd473;
     font-size: 14px;
 }
 
-.founder-box h3 {
+.founder-box h4 {
     color: black;
+    opacity: .5;
+    font-family: DroidSerif;
+    font-style: italic;
+    font-weight: normal;
+    font-size: 14px;
+}
+
+.founder-social {
+    display: inline-block;
+    margin: 8px;
+
+}
+
+.founder-wrapper {
+    position: relative;
+    display: block;
+}
+
+.founder-wrapper .right-arrow {
+  position:absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  right: 0px;
+}
+  
+.founder-wrapper .left-arrow {
+  position:absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  left: 0px;
+}
+
+.next-nav {
+    margin: 0 0 -30px -30px;
+    background-color: #9abd67;
+    width: 360px;
+    height: 66px;
+}
+
+.next-nav p {
+    position: absolute;
+    display: inline-block;
+    margin: 25px 0 0 30px;
+    color: white;
+}
+
+.next-nav .hiring-box {
+  display: inline-block;
+  color: white;
+  float: right;
+  
+  border: white 1px solid;
+  padding: 10px 10px;
+  font-style: italic;
+  margin: 12px 20px;
+  }
+
+.next-nav a {
+    font-size: 14px;
+    color: white;
+    text-decoration: none;
+}
+
+/*    Our Recent Works Section    */
+
+.our-recent-works {
+    text-align: center;
+    height: 520px;
+}
+
+.our-recent {
+     font-size: 20px;
+     color: black;
+     text-align: center;
+     margin-bottom: 5px
+}
+
+.pict-graph {
+    margin-top: 48px;
+    position: relative;
+}
+
+.letoy-themes {
+    height: 80px;
+    width: 300px;
+    background-color: #ebebeb;
+    margin-top: -5px;
+}
+
+.themes-div {
+    position: relative;
+    display: inline-block;
+    height: 80px;
+    
+}
+.themes-div h3 {
+    margin-top: 25px;
+    color: black;
+}
+
+.themes-div h4 {
+    margin: -4px;
+    color: black;
+    opacity: .5;
+    font-family: DroidSerif;
+    font-style: italic;
+    font-weight: normal;
+    font-size: 12px;
+}
+
+.view-all-box {
+  position: absolute;
+  display: block;
+  border: #acd473 1px solid;
+  padding: 10px 10px;
+  font-style: italic;
+  text-align: center;
+  float: none;
+
+  }
+
+.view-all-box a{
+    font-size: 14px;
+    color: #acd473;
+    text-decoration: none;
+    text-align: center;
+}
+
+.testimonials-section-main {
+    height: 562px;
+    background-image: url(images/pict-background-book.jpg)
+}
+
+.john-doe-section {
+    
+}
+
+.test-quote-wrap {
+    
+}
+
+.test-quote-para {
+    
+}
+
+.quote-icon {
+    
+}
+
+.john-doe-wrap {
+    
+}
+
+.john-doe-name {
+    
+}
+
+.button-wrap {
+    
+}
+
+.give-testimonial-box {
+
 }
