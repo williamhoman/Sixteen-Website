@@ -14,7 +14,7 @@ body{
   margin: 0;
 }
 
-h1, h2, h3{
+h1, h2 {
      font-family: 'Source Sans Pro';
      font-style: normal;
      text-transform: uppercase;
@@ -41,6 +41,15 @@ ul {
     list-style-type: none;
 }
 
+form label,
+form input
+  {
+    display: block;
+}
+
+form input {
+    margin: 0 0 10px;
+}
 /*specific page / section*/
 
 
@@ -319,7 +328,7 @@ em {
 
 .our-recent-works {
     text-align: center;
-    height: 520px;
+    height: 600px;
 }
 
 .our-recent {
@@ -363,14 +372,14 @@ em {
 }
 
 .view-all-box {
-  position: absolute;
-  display: block;
-  border: #acd473 1px solid;
-  padding: 10px 10px;
+/*  position: absolute;*/
+  display: inline-block;
+  border: 3px solid white:#f7f7f7; 
+  padding: 10px;
   font-style: italic;
   text-align: center;
   float: none;
-
+  margin: 40px 0 10px 0;
   }
 
 .view-all-box a{
@@ -380,87 +389,318 @@ em {
     text-align: center;
 }
 
+.page-logos {
+    margin: 30px 0 0 -30px;
+    position: relative;
+    display: block;
+    height: 80px;
+    width: 360px;
+    background-color: #ebebeb;
+    padding: none;
+}
+
+.logo-envato {
+  position:absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  left: 0px;
+  padding-left: 30px
+}
+
+.logo-theme-forest {
+  position:absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  right: 0px;
+  padding-right: 30px;
+    padding-top: 10px;
+}
+
 .testimonials-section-main {
     height: 562px;
     background-image: url(images/pict-background-book.jpg)
 }
 
-.john-doe-section {
-    
+.john-doe-div {
+    position: relative;
+    margin-top: 20px
 }
 
 .test-quote-wrap {
-    
+
+    position: relative;
+    height: 85px;
+    width: 300px;
+    border: 1px solid white;
+    display: inline-block; 
+    padding: 0 10px;
+
 }
 
 .test-quote-para {
-    
+    text-align: justify;
+    color: white;
+    font-family: DroidSerif;
+    opacity: .5;
 }
 
 .quote-icon {
-    
+    float: right;
+    position: relative;
+    margin-top: -20px;
+    margin-right: 10px
 }
 
 .john-doe-wrap {
+    display: block;
+    padding-top: 20px
     
 }
 
 .john-doe-name {
+    float: right;
+    padding-right: 55px;
     
 }
 
+.john-doe-name h3 {
+    margin-top: 20px;
+}
+
+.john-doe-name h4 {
+    margin-top: 5px;
+    font: italic 14px DroidSerif;
+    color: rgba(247, 247, 247, 0.85);
+
+} 
+
 .button-wrap {
-    
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 55px;
+}
+
+
+.testimonials {
+    font-family: 'Source Sans Pro';
+    color: #f7f7f7;
+    font-weight: 400;
+    font-size: 20px;
+    opacity: .8
+}
+
+.testimonials-para {
+    color: #f7f7f7;
+    opacity: .8;
+    margin-bottom: 5px;
+    line-height: 16px
 }
 
 .give-testimonial-box {
-
+  
+  color: #acd473;
+  border: #acd473 1px solid;
+  padding: 11px 15px;
+  font-style: italic;
+  margin: 17px 0;
+  display: inline-block;
+}
+.testimonial-button {
+    text-decoration: none;
+    color: #acd473;
 }
 
 .blog-section {
-    
+    height: 675px;
+/*    outline: 1px solid red;*/
 }
 
 .blog-wrapper {
-    
+    outline: 1px solid red;
+    text-align: center;
+    margin-top: -20px;
+    margin-bottom: 30px;
+}
+
+.blog-wrapper h2 {
+    font: 400 20px 'Source Sans Pro';
+    padding-top: 20px;
+    margin-bottom: 5px;
+}
+
+.web-design-wrapper{
+    position: absolute;
+/*    float: right;*/
+
+
 }
 
 .web-design-picture-box {
+/*    outline: 1px solid red;*/
+/*    position: absolute;*/
+    margin-left: -60px;
+    width: 160px;
+    height: 101px;
+}
+.icon-earth {
+    position: relative;
+    display: block;
+    margin: 0 auto;
+    margin-top: -25px;
+}
+
+.read-gray-area {
+    margin-top: -25px;
+    width: 160px;
+    height: 101px;
+    background-color: #ebebeb;
+    
+        }
+
+.read-gray-area h3 {
+    text-align: center;
+/*    dispay: block;*/
+    font-size: 10px;
+    color: #454545;
+    padding-top: 50px;
+    font-family: 'Source Sans Pro';
+    text-decoration: none;
+}
+
+.background-picture-seats {
     
 }
 
-.read-more-web-button {
-    
+
+.read-more-button {
+    width: 160px;
+    height: 30px;
+    text-align: center;
+    display: inline-block;
+    background-color: #acd373;
+    padding: 5px;
 }
 
+.read-more {
+    text-decoration: none;
+    font-style: italic;
+    font-size: 12px;
+    color: #f7f7f7;
+    
+}
 .native-apps-wrapper {
-    
+    position: relative;
+    padding-left: 115px;
+    padding-bottom: 15px;
+
 }
 
 .native-apps-picture-box {
-    
+/*    outline: 1px solid red;*/
+/*    margin-right: -100px;*/
+    width: 160px;
+/*    height: 101px;*/
 }
 
+.background-picture-beach {
+    height: 102px;
+    width: 160px;
+}
+
+.icon-mobile {
+    position: relative;
+    display: block;
+    margin: 0 auto;
+    margin-top: -25px;
+}
 .read-more-native-button {
     
 }
 
 .not-ui-wrapper {
-    
+    position: relative;
+/*    outline: 1px solid red;*/
+    float: left;
+    width: 160px;
+    margin-left: -60px;
+
+
 }
 
 .not-ui-picture-box {
-    
+    width: 160px;
+}
+
+.background-picture-wheat {
+    width: 160px;
+    height: 101px;
+}
+
+.icon-monitor {
+    position: relative;
+    display: block;
+    margin: 0 auto;
+    margin-top: -25px;
 }
 
 .quick-tips-wrapper {
-    
+    position: relative;
+    padding-left: 115px;
+    padding-bottom: 15px;
+         
 }
 
 .quick-tips-picture-box {
-    
+/*       outline: 1px solid red;*/
+/*    margin-right: -100px;*/
+    width: 160px;
+    height: 120px;
 }
 
-.read-more-quick-tips-button {
-    
+.icon-business {
+    position: relative;
+    display: block;
+    margin: 0 auto;
+    margin-top: -25px;
+}
+
+.background-picture-logs {
+     width: 160px;
+    height: 101px;
+}
+
+.blog-nav {
+    position: relative;
+    outline: 1px solid red;
+    height: 62px;
+    background-color: #acd373;
+    padding: 25px 10px;
+}
+
+.blog-nav h3 {
+    font-size: 12px;
+    font-family: 'Source Sans Pro';
+    font-weight: 400;
+    opacity: .8;
+    color: #f7f7f7;
+
+}
+
+.join-box {
+    color: white;
+    float: right;
+    width: 120px;
+    height: 30px;
+    border: 1px solid white;
+    text-align: center;
+    display: block;
+    padding: 5px;
+    font-style: italic;
+    margin: -33px 20px;
+}
+
+.join-box-button {
+    color: white;
+    font-size: 12px;
+
 }
