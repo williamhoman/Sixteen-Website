@@ -671,7 +671,7 @@ em {
 
 .blog-nav {
     position: relative;
-    outline: 1px solid red;
+/*    outline: 1px solid red;*/
     height: 62px;
     background-color: #acd373;
     padding: 25px 10px;
@@ -690,17 +690,93 @@ em {
     color: white;
     float: right;
     width: 120px;
-    height: 30px;
+    height: 25px;
     border: 1px solid white;
     text-align: center;
     display: block;
-    padding: 5px;
+/*    padding: 5px;*/
     font-style: italic;
-    margin: -33px 20px;
+    margin: -28px 20px;
 }
 
 .join-box-button {
     color: white;
     font-size: 12px;
+
+}
+
+.white-box-letter {
+    float: right;
+    background-image: url(images/icon-letter-form.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 30px;
+    height: 27px;
+    background-color: #f7f7f7;
+    margin: -20px -28px;    
+}
+
+.map-graphic {
+position: relative;
+    height: 150px;
+    width: 360px;
+    margin-left: -30px;
+    margin-top: -25px
+}
+
+.map-graphic h3 {
+    color: white;
+    text-align: center;
+    margin-top: -75px;
+    font: 400 14px 'Source Sans Pro';
+    opacity: .8;
+}
+
+.contact-wrapper {
+    position: relative;
+    height: 600px;
+    background-color: #acd373;
+    text-align: center;
+}
+
+.contact-wrapper h2 {
+    color: #f7f7f7;
+    font:400 20px 'Source Sans Pro';
+    margin-bottom: 0;
+}
+
+.contact-name {
+    margin-bottom: 30px;
+}
+
+.contact-info{
+    float: left;
+    text-align: left;
+    font-family: 'Source Sans Pro';
+    color: #f7f7f7;
+}
+
+.input-box {
+    margin-top: 5px;
+    height: 28px;
+    width: 301px;
+    background-color: #9abd67;
+}
+
+.input-box-message {
+    margin-top: 5px;
+    height: 84px;
+    width: 301px;
+    background-color: #9abd67;
+
+}
+
+::-webkit-input-placeholder {
+ font-size: 14px;
+ color: white;
+ font-family: DroidSerif;
+ font-style: italic;
+    text-align: left;
+
 
 }
