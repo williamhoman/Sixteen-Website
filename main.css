@@ -26,7 +26,11 @@ h3 {
     line-height: 14px;
     margin: 0 0 10px 0;
     color: #acd373;
+    font-family: 'Source Sans Pro';
+    text-transform: uppercase;
+    font-weight: 400;
 }
+
 
 p {
      font-family: 'Source Sans Pro';
@@ -254,12 +258,13 @@ em {
 }
 
 .founder-box h3 {
-    margin-top: 12px;
+    margin-top: 30px;
     color: #acd473;
     font-size: 14px;
 }
 
 .founder-box h4 {
+    margin-top: 10px;
     color: black;
     opacity: .5;
     font-family: DroidSerif;
@@ -359,6 +364,7 @@ em {
 .themes-div h3 {
     margin-top: 25px;
     color: black;
+    font-weight: 600;
 }
 
 .themes-div h4 {
@@ -372,9 +378,8 @@ em {
 }
 
 .view-all-box {
-/*  position: absolute;*/
   display: inline-block;
-  border: 3px solid white:#f7f7f7; 
+  border: 1px solid #acd473; 
   padding: 10px;
   font-style: italic;
   text-align: center;
@@ -465,6 +470,7 @@ em {
 
 .john-doe-name h3 {
     margin-top: 20px;
+    text-transform: uppercase; 
 }
 
 .john-doe-name h4 {
@@ -516,7 +522,7 @@ em {
 }
 
 .blog-wrapper {
-    outline: 1px solid red;
+/*    outline: 1px solid red;*/
     text-align: center;
     margin-top: -20px;
     margin-bottom: 30px;
@@ -559,12 +565,13 @@ em {
 
 .read-gray-area h3 {
     text-align: center;
-/*    dispay: block;*/
+
     font-size: 10px;
     color: #454545;
     padding-top: 50px;
     font-family: 'Source Sans Pro';
-    text-decoration: none;
+    text-transform: none;
+    font-weight: 600;
 }
 
 .background-picture-seats {
@@ -674,7 +681,7 @@ em {
 /*    outline: 1px solid red;*/
     height: 62px;
     background-color: #acd373;
-    padding: 25px 10px;
+    padding: 30px 10px;
 }
 
 .blog-nav h3 {
@@ -683,6 +690,8 @@ em {
     font-weight: 400;
     opacity: .8;
     color: #f7f7f7;
+    line-height: 12px;
+    text-transform: none;
 
 }
 
@@ -702,6 +711,8 @@ em {
 .join-box-button {
     color: white;
     font-size: 12px;
+    vertical-align: middle;
+    line-height: 12px;
 
 }
 
@@ -730,6 +741,7 @@ position: relative;
     margin-top: -75px;
     font: 400 14px 'Source Sans Pro';
     opacity: .8;
+    text-transform: none;
 }
 
 .contact-wrapper {
@@ -758,25 +770,70 @@ position: relative;
 
 .input-box {
     margin-top: 5px;
+    padding: 10px;
     height: 28px;
     width: 301px;
     background-color: #9abd67;
 }
 
-.input-box-message {
+
+textarea {
+    display: block;
     margin-top: 5px;
+    padding: 10px;
     height: 84px;
     width: 301px;
     background-color: #9abd67;
-
+    font-size: 12px;
+  color: white;
+  font-family: DroidSerif;
+  font-style: italic;
+  text-align: left;
+    opacity: .8;
 }
 
 ::-webkit-input-placeholder {
- font-size: 14px;
+ font-size: 12px;
  color: white;
  font-family: DroidSerif;
  font-style: italic;
-    text-align: left;
+ text-align: left;
 
 
+}
+
+.send-box {
+    display: inline-block;
+    margin-top: 40px;
+    width: 220px;
+    height: 32px;
+    background-color: #9abd67;
+    vertical-align: middle;
+    padding: 7px;
+    
+}
+
+.send-button {
+    text-align: center;
+    font: italic 16px DroidSerif;
+    color: #f7f7f7;
+    text-decoration: none;
+}
+
+.links-wrapper {
+    height: 100px;
+    display: inline-block;
+    position: relative;
+    width: 360px;
+    background-color: #9abd67;
+    text-align: center;  
+}
+
+.links-wrapper h3{
+    color: #f7f7f7;
+    font: 400 13px 'Source Sans Pro';
+    opacity: .8;
+    padding: 5px;
+    text-transform: none;       
+    
 }
