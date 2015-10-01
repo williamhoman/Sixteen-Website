@@ -12,8 +12,6 @@ html {
 body{
   width: 360px;
   margin: 0;
-    font-family: 'Source Sans Pro', sans-serif;
-    font-family: 'Droid Serif', serif;
 }
 
 h1, h2 {
@@ -165,7 +163,7 @@ em {
 .quote {
      display: block;
      text-align: center;
-     font-family: 'Droid Serif', serif;
+     font-family: 'Droid Serif Regular';
      font-size: 14px;
 }
 
@@ -269,7 +267,7 @@ em {
     margin-top: 10px;
     color: black;
     opacity: .5;
-    font-family: 'Droid Serif', serif;
+    font-family: DroidSerif;
     font-style: italic;
     font-weight: normal;
     font-size: 14px;
@@ -373,7 +371,7 @@ em {
     margin: -4px;
     color: black;
     opacity: .5;
-    font-family: 'Droid Serif', serif;
+    font-family: DroidSerif;
     font-style: italic;
     font-weight: normal;
     font-size: 12px;
@@ -448,7 +446,7 @@ em {
 .test-quote-para {
     text-align: justify;
     color: white;
-    font-family: 'Droid Serif', serif;
+    font-family: DroidSerif;
     opacity: .5;
 }
 
@@ -478,7 +476,7 @@ em {
 
 .john-doe-name h4 {
     margin-top: 5px;
-    font-family: 'Droid Serif', serif, italic, 14px;
+    font: italic 14px DroidSerif;
     color: rgba(247, 247, 247, 0.85);
 
 } 
@@ -699,14 +697,12 @@ em {
 }
 
 .join-box {
-    position: relative;
     color: white;
     float: right;
-    width: 110px;
+    width: 120px;
     height: 25px;
     border: 1px solid white;
     text-align: center;
-
 /*    display: block;*/
 /*    padding: 5px;*/
     font-style: italic;
@@ -715,14 +711,14 @@ em {
 
 .join-box-button {
     color: white;
-    font-size: 10px;
+    font-size: 12px;
     vertical-align: middle;
     line-height: 12px;
 
 }
 
 .white-box-letter {
-    position: absolute;
+    position: relative;
     float: right;
     background-image: url(images/icon-letter-form.png);
     background-repeat: no-repeat;
@@ -730,11 +726,11 @@ em {
     width: 30px;
     height: 25px;
     background-color: #f7f7f7;
-    margin: -20px 105px;    
+    margin: -1px -28px;    
 }
 
 .map-graphic {
-/*position: relative;*/
+position: relative;
     height: 150px;
     width: 360px;
     margin-left: -30px;
@@ -754,7 +750,7 @@ em {
     position: relative;
     height: 600px;
     background-color: #acd373;
-/*    text-align: center;*/
+    text-align: center;
 }
 
 .contact-wrapper h2 {
@@ -765,29 +761,13 @@ em {
 
 .contact-name {
     margin-bottom: 30px;
-    text-align: center;
-}
-
-.contact-name input {
-    color: #f7f7f7;
-    border: 1px solid transparent;
-    height: 28px;
-    padding: 5px;
 }
 
 .contact-info{
-/*    float: left;*/
+    float: left;
     text-align: left;
     font-family: 'Source Sans Pro';
     color: #f7f7f7;
-}
-
-.inputs {
-    position: absolute;
-    color: #f7f7f7;
-    text-align: left;
-    height: 32px;
-    maring: 15px 0 10px 0;
 }
 
 .input-box {
@@ -800,16 +780,15 @@ em {
 
 
 textarea {
-    position: relative;
-/*    display: block;*/
+    display: block;
     margin-top: 5px;
     padding: 10px;
-    height: 85px;
+    height: 84px;
     width: 301px;
     background-color: #9abd67;
     font-size: 12px;
   color: white;
-  font-family: 'Droid Serif', serif;
+  font-family: DroidSerif;
   font-style: italic;
   text-align: left;
     opacity: .8;
@@ -818,7 +797,7 @@ textarea {
 ::-webkit-input-placeholder {
  font-size: 12px;
  color: white;
- font-family: 'Droid Serif', serif;
+ font-family: DroidSerif;
  font-style: italic;
  text-align: left;
 
@@ -826,31 +805,27 @@ textarea {
 }
 
 .send-box {
-    
-    
-/*    vertical-align: middle;*/
-    margin-top: 280px;
-    margin-left: 40px;
+    display: inline-block;
+    margin-top: 40px;
     width: 220px;
     height: 32px;
     background-color: #9abd67;
-    text-align: center;
+    vertical-align: middle;
     padding: 7px;
     
 }
 
 .send-button {
-    font: italic 16px 'Droid Serif';
+    text-align: center;
+    font: italic 16px DroidSerif;
     color: #f7f7f7;
     text-decoration: none;
-
-    
 }
 
 .links-wrapper {
-/*    height: 100px;*/
-/*    display: inline-block;*/
-/*    position: relative;*/
+    height: 100px;
+    display: inline-block;
+    position: relative;
     width: 360px;
     background-color: #9abd67;
     text-align: center;  
