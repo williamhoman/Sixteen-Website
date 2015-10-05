@@ -8,19 +8,26 @@ html {
   box-sizing: inherit;
 }
 
+#about h2 {
+    color:red;
+}
+
 /*base styling*/
 body{
-  width: 360px;
+
   margin: 0;
     font-family: 'Source Sans Pro', sans-serif;
     font-family: 'Droid Serif', serif;
 }
+
+
 
 h1, h2 {
      font-family: 'Source Sans Pro';
      font-style: normal;
      text-transform: uppercase;
      font-weight: 600;
+     font-size: 1.385em;
 }
 
 h3 {
@@ -50,7 +57,8 @@ ul {
 form label,
 form input
   {
-    display: block;
+    margin: 0 0 10px;
+      display: block;
 }
 
 form input {
@@ -67,13 +75,21 @@ header section
 header{
   background-color: #acd373;
   height: 40px;
-  position: relative;
-
+  position: fixed;
+    width: 100%;
+    box-shadow: 0 5px 5px rgba 0,0,0,.8;
+    z-index: 1;
+    transition: all .5s;
 }
 
 .logo{
   display: inline-block;
   margin: 8px 0 0 30px;
+
+}
+
+.logo img {
+    height: 25px;
 }
 
 nav{
@@ -88,27 +104,46 @@ nav{
   background-position: center;
 }
 
+.site-links {
+    display:none;
+}
+
+
+.site-links a {
+    color: #f7f7f7;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 1em;
+    font-weight: 900;
+    text-decoration: none;
+    text-transform: uppercase;
+/*    margin: 0 auto;*/
+    line-height: 105px;
+    margin-right: 30px;
+}
+
+
+ 
 /*greeting section*/
 
 .greeting {
-    background:#9abd67 url(images/bkg-header-silhouette.png) no-repeat bottom;
+    background:#9abd67 url(images/silhouette-large.png) no-repeat bottom;
+    background-size: auto 24%;
     height: 350px;
-  position: relative;
-  color: #fff;
-  text-align: center;
-    padding: 0;
-     font-size: 14px;
+    position: relative;
+    color: #fff;
+    text-align: center;
+/*    padding: 0;*/
 }
 
 .greeting > div {
-  position: absolute;
-  top: 50%;
-  transform: translateY(-50%);
+  position: relative;
+  top: 30%;
+  transform: translateY(50%);
   left: 0;
   right: 0;
 }
 
-.greeting h1{
+.we-are-sixteen{
   margin-top: 0;
 }
 
@@ -118,10 +153,6 @@ nav{
      margin-top: 13px;
 }
 
-.who-we-are .iphone {
-  display: block;
-  margin: 0 auto;
-}
 
 .who-we-are h2{
     
@@ -146,8 +177,17 @@ nav{
   display: inline-block;
 }
 
+.who-we-are img{
+    margin: 0 auto;
+    vertical-align: middle;
+    display: block;
+}
+
+
+
+
 .video-learnmore {
-  padding: 0
+  padding: 0;
 }
 
 /*     our services section     */
@@ -179,6 +219,7 @@ em {
     margin-bottom: 15px;
   
 }
+
 .service-item p{
     margin: 0;
     font-size: 12px;
@@ -188,8 +229,8 @@ em {
     float: left;
     margin-right: 20px;
 }
-.service-text {
 
+.service-text {
     height: 80px;
 }
 
@@ -201,7 +242,6 @@ em {
   font-style: italic;
   margin: 17px 0;
   display: inline-block;
-
 }
 
 .learn-button {
@@ -227,14 +267,14 @@ em {
 }
 
 
-.amazing-team .divider{
+.amazing-team .divider {
    margin-bottom: 77px;
 }
 
 .founder-box {
     position: relative;
     display: block;
-    border: 3px solid white:#f7f7f7; 
+    border: 3px solid #f7f7f7; 
     background-color: #f7f7f7;
     width: 200px;
     height: 182px;
@@ -252,7 +292,6 @@ em {
     background-color: #ebebeb;
     border-bottom-left-radius: 5px;
     border-bottom-right-radius: 5px;
-
 }
 
 .founder {
@@ -303,7 +342,7 @@ em {
 .next-nav {
     margin: 0 0 -30px -30px;
     background-color: #9abd67;
-    width: 360px;
+/*    width: 360px;*/
     height: 66px;
 }
 
@@ -401,9 +440,9 @@ em {
     position: relative;
     display: block;
     height: 80px;
-    width: 360px;
+/*    width: 360px;*/
     background-color: #ebebeb;
-    padding: none;
+    padding: 0;
 }
 
 .logo-envato {
@@ -478,7 +517,8 @@ em {
 
 .john-doe-name h4 {
     margin-top: 5px;
-    font-family: 'Droid Serif', serif, italic, 14px;
+    font-family: 'Droid Serif', serif, italic;
+    font-size: 14px;
     color: rgba(247, 247, 247, 0.85);
 
 } 
@@ -538,7 +578,9 @@ em {
 }
 
 .web-design-wrapper{
-    position: absolute;
+    position: relative;
+    text-align: center;
+    display:inline-block;
 /*    float: right;*/
 
 
@@ -547,14 +589,14 @@ em {
 .web-design-picture-box {
 /*    outline: 1px solid red;*/
 /*    position: absolute;*/
-    margin-left: -60px;
+/*    margin-left: -60px;*/
     width: 160px;
     height: 102px;
 }
 .icon-earth {
-    position: relative;
-    display: block;
-    margin: 0 auto;
+/*    position: relative;*/
+    display: inline-block;
+/*    margin: 0 auto;*/
     margin-top: -25px;
 }
 
@@ -577,10 +619,6 @@ em {
     font-weight: 600;
 }
 
-.background-picture-seats {
-    
-}
-
 
 .read-more-button {
     width: 160px;
@@ -599,8 +637,8 @@ em {
     
 }
 .native-apps-wrapper {
-    position: relative;
-    padding-left: 115px;
+/*    position: relative;*/
+/*    padding-left: 115px;*/
     padding-bottom: 15px;
 
 }
@@ -630,7 +668,7 @@ em {
 .not-ui-wrapper {
 /*    position: relative;*/
 /*    outline: 1px solid red;*/
-    float: left;
+/*    float: left;*/
     width: 160px;
     margin-left: -60px;
 
@@ -735,10 +773,12 @@ em {
 
 .map-graphic {
 /*position: relative;*/
-    height: 150px;
-    width: 360px;
+    background: url(images/bkg-map-arrow.jpg no-repeat center);
+    background-size: cover;
+    height: 180px;
+/*    width: 360px;*/
     margin-left: -30px;
-    margin-top: -25px
+    margin-top: -25px;
 }
 
 .map-graphic h3 {
@@ -751,9 +791,11 @@ em {
 }
 
 .contact-wrapper {
-    position: relative;
+/*    position: relative;*/
     height: 600px;
     background-color: #acd373;
+    padding: 0;
+    margin: 0 auto;
 /*    text-align: center;*/
 }
 
@@ -787,7 +829,7 @@ em {
     color: #f7f7f7;
     text-align: left;
     height: 32px;
-    maring: 15px 0 10px 0;
+    margin: 15px 0 10px 0;
 }
 
 .input-box {
@@ -851,7 +893,7 @@ textarea {
 /*    height: 100px;*/
 /*    display: inline-block;*/
 /*    position: relative;*/
-    width: 360px;
+/*    width: 360px;*/
     background-color: #9abd67;
     text-align: center;  
 }
@@ -864,3 +906,108 @@ textarea {
     text-transform: none;       
     
 }
+
+/*     Media Queries      */
+
+/* Default styles first then media queries */
+
+@media screen and (min-width: 400px)  {
+    
+}
+
+@media screen and (min-width: 600px)  {
+
+    body {
+        font-size: 15px;
+    }
+    
+    .greeting {
+        height: 575px;
+    }
+}
+
+
+
+@media screen and (min-width: 1000px) {
+       body {
+        font-size: 18px;
+    }
+
+    nav {
+        width: auto;
+        display: inline-block;
+        background: transparent;
+        height: 100%;
+    }
+    
+    
+    .greeting {
+
+        height: 725px;
+    }
+    
+    .greeting h1{
+        font-size: 48px;
+    }
+    
+    h2 {
+        font-size: 1.667em;
+    }    
+
+    header {
+        height: 105px;
+    }
+
+    
+
+    .name-input {
+    max-width: 570px;
+    margin: 0 auto;
+    }
+
+    .site-links {
+    display: inline-block;
+    }
+
+    .map {
+    background-image: url(images/map-large.jpg);
+    }
+
+   .logo {
+        margin-top: 25px;
+    }
+
+    .logo img{
+        height: auto;
+    }
+    
+    .content {
+        width: 800px;
+        margin: 0 auto;
+/*        this is used to restrict width*/
+    }
+        
+
+
+    .who-we-are img{
+        float: right;
+}
+ 
+    .video-learnmore {
+        width: 1000px;
+        background-image: url(image/back-group-large.jpg);
+    }    
+    
+}
+
+@media screen and (min-width: 1400px) {
+    
+}
+/*Move to Nav / Header*/
+
+
+
+
+    
+    
+  
