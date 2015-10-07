@@ -117,21 +117,22 @@ nav {
     background: #9abd67 url(images/silhouette-large.png) no-repeat bottom;
     background-size: auto 24%;
     height: 350px;
-    position: relative;
+/*    position: relative;*/
     color: #fff;
     text-align: center;
-/*    display: flex;*/
-/*    flex-direction: column;*/
-/*    justify-content: center;*/
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
-.greeting > div {
+/*.greeting > div {*/
     position: relative;
     top: 30%;
     transform: translateY(50%);
     left: 0;
     right: 0
-}
+/*}*/
 
 .we-are-sixteen {
     margin-top: 0
@@ -433,27 +434,40 @@ em {
 
     display: block;
     text-align: center;
-    height: 600px
+    max-height: 1100px;
+    margin-bottom: auto;
 }
 
 .our-recent-wrap {
     position: relative;
-    display: block;
+/*    display: block;*/
+    margin-bottom: 40px;
 }
 
 .our-recent {
     font-size: 20px;
     color: #000;
     text-align: center;
-    margin-bottom: 5px
+    margin-bottom: 5px;
+}
+
+.recent-works {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    position: relative;
+    
 }
 
 .letoy-themes-wrap {
     display: inline-block;
+        margin: 0 0 16px 12px;
+    position: relative;
 }
 
 .pict-graph {
-    margin-top: 48px;
+/*    margin-top: 48px;*/
     display: block;
 }
 
@@ -461,26 +475,37 @@ em {
 
     height: 80px;
     width: 300px;
+    display: block;
     background-color: #ebebeb;
+        flex-grow: 1;
+/*    margin-top: 10px;*/
+/*    flex-direction: column;*/
+/*    min-width: 160px;*/
+/*    min-height: 250px;*/
 
-    
 }
+    
 
 
 .themes-div h3 {
-    color: #000;
+    color: black;
+/*    display: block;*/
     font-weight: 600;
-    padding-top: 20px
+    padding-top: 15px;
+    line-height: 14px;
+  
 }
 
 .themes-div h4 {
-    margin: -4px;
+/*    margin: -4px;*/
     color: #000;
     opacity: .5;
     font-family: 'Droid Serif',serif;
     font-style: italic;
     font-weight: 400;
-    font-size: 12px
+    font-size: 12px;
+    line-height: 14px;
+    margin-top: -5px;
 }
 
 .view-all-box {
@@ -493,7 +518,7 @@ em {
     color: #acd473;
     text-decoration: none;
     text-align: center;
-     border: 1px solid #acd473;
+    border: 1px solid #acd473;
     padding: 10px 15px;
     font-style: italic;
     margin-top: 30px;
@@ -509,8 +534,8 @@ em {
 
 .page-logos {
     margin: 30px -30px  0 -30px;
-    position: relative;
-    display: inlblock;
+/*    position: relative;*/
+    display: inline-block;
     height: 80px;
 /*    width: 360px;*/
     background-color: #ebebeb;
@@ -518,7 +543,7 @@ em {
 }
 
 .logo-envato {
-    position: absolute;
+    position: relative;
     top: 50%;
     transform: translateY(-50%);
     left: 0;
@@ -526,7 +551,7 @@ em {
 }
 
 .logo-theme-forest {
-    position: absolute;
+    position: relative;
     top: 50%;
     transform: translateY(-50%);
     right: 0;
@@ -626,16 +651,42 @@ em {
 }
 
 .blog-section {
-    height: 675px
+    height: 675px;
+    margin: 20px 0;
+    text-align: center;
+   
 /*    outline: 1px solid red;*/
 }
 
 .blog-wrapper {
 /*    outline: 1px solid red;*/
-    text-align: center;
+    display: block;
+    position: relative;
     margin-top: -20px;
     margin-bottom: 30px
 }
+
+.recent-posts {
+     display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.blog-post {
+/*    position: relative;*/
+/*    text-align: center;*/
+/*    display: inline-block*/
+/*    float: right;*/
+/*    display: flex;*/
+    flex-grow: 1;
+/*    flex-direction: column;*/
+    min-width: 160px;
+    min-height: 250px;
+    margin: 0 0 16px 12px;
+    position: relative;
+}
+
 
 .blog-wrapper h2 {
     font: 400 20px 'Source Sans Pro';
@@ -643,12 +694,7 @@ em {
     margin-bottom: 5px
 }
 
-.web-design-wrapper {
-    position: relative;
-    text-align: center;
-    display: inline-block
-/*    float: right;*/
-}
+
 
 .web-design-picture-box {
 /*    outline: 1px solid red;*/
@@ -660,7 +706,7 @@ em {
 
 .icon-earth {
 /*    position: relative;*/
-    display: inline-block;
+/*    display: inline-block;*/
 /*    margin: 0 auto;*/
     margin-top: -25px
 }
@@ -686,9 +732,9 @@ em {
     width: 160px;
     height: 30px;
     text-align: center;
-    display: inline-block;
+    display: block;
     background-color: #acd373;
-    padding: 5px
+    padding: 3px;
 }
 
 .read-more {
