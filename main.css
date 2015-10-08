@@ -431,24 +431,22 @@ em {
 
 
 .our-recent-works {
-
-    display: block;
     text-align: center;
-    max-height: 1100px;
-    margin-bottom: auto;
+
 }
 
 .our-recent-wrap {
-    position: relative;
-/*    display: block;*/
-    margin-bottom: 40px;
+/*    position: relative;*/
+    display: block;
+    width: 100%;
+/*    margin-bottom: 40px;*/
 }
 
 .our-recent {
     font-size: 20px;
     color: #000;
-    text-align: center;
     margin-bottom: 5px;
+   
 }
 
 .recent-works {
@@ -456,25 +454,32 @@ em {
     flex-wrap: wrap;
     flex-direction: row;
     justify-content: center;
+    align-items: baseline;
     position: relative;
+    border: 1px solid red;
     
 }
 
+
 .letoy-themes-wrap {
-    display: inline-block;
-        margin: 0 0 16px 12px;
-    position: relative;
+/*    display: inline-block;*/
+        margin: 0 0 20px 30px;
+/*      width: 100%;*/
+    display: block;
+     border: 1px solid red;
 }
 
+
 .pict-graph {
-/*    margin-top: 48px;*/
+    width: 100%;
     display: block;
+/*     border: 1px solid red;*/
 }
 
 .letoy-themes {
 
     height: 80px;
-    width: 300px;
+    width: 100%;
     display: block;
     background-color: #ebebeb;
         flex-grow: 1;
@@ -529,34 +534,47 @@ em {
 #graph {
     height: auto;
     width: auto;
-    max-width: 300px;
+    max-width: 250px;
+}
+
+#graph-two {
+    height: auto;
+    width: auto;
+    max-width: 200px;
 }
 
 .page-logos {
     margin: 30px -30px  0 -30px;
-/*    position: relative;*/
-    display: inline-block;
+/*    display: block;*/
     height: 80px;
 /*    width: 360px;*/
     background-color: #ebebeb;
-    padding: 0
+      display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    position: relative;
+    
+}
+
+.logos-wrap {
+    display: block;
+    flex: 1;
+    border: 1px solid red;
+    padding-top: 30px;
 }
 
 .logo-envato {
-    position: relative;
-    top: 50%;
-    transform: translateY(-50%);
-    left: 0;
-    padding-left: 30px
+
 }
 
 .logo-theme-forest {
-    position: relative;
-    top: 50%;
-    transform: translateY(-50%);
-    right: 0;
-    padding-right: 30px;
-    padding-top: 10px
+/*    position: relative;*/
+/*    top: 50%;*/
+/*    transform: translateY(50%);*/
+/*    right: 0;*/
+/*    padding-right: 30px;*/
+/*    padding-top: 10px*/
 }
 
 .testimonials-section-main {
@@ -1179,7 +1197,17 @@ header {
     left: 0;
 }
 
-
+.recent-works {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+/*    align-items: flex-end;*/
+    position: relative;
+ 
+     border: 1px solid red;
+    
+}
     
 }
 @media screen and (min-width: 1400px) {
